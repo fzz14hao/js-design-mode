@@ -38,44 +38,43 @@
 <tr>
   <td>工厂模式</td>
   <td>将new操作单独封装</td>
-  <td></td>
+  <td>jQuery - $('div)<br>
+      React.createElement<br>
+      vue 异步组件<br></td>
 </tr>
 <tr>
   <td>单例模式</td>
-  <td>  系统中唯一使用<br>
-         一个类只有一个实例</td>
+  <td> 系统中被唯一使用, 一个类只有一个实例</td>
   <td>登录框<br>
           购物车</td>
 </tr>
 <tr>
   <td>适配器模式</td>
+  <td>旧接口格式和使用者不兼容，中间加一个适配转换接口  </td>
   <td>封装旧接口<br>
-     vue computed</td>
-  <td></td>
+           vue computed</td>
 </tr>
 <tr>
   <td>装饰器模式</td>
-  <td>   为对象扩展新功能<br>
-         不改变其原有的结构和功能</td>
+  <td>   为对象添加新功能，不改变原有的结构和功能</td>
   <td>     ES7装饰器 （babel-plugin-transform-decorators-legacy）<br>
          core-decorators</td>
 </tr>
 <tr>
   <td>代理模式</td>
-  <td>   网页事件代理<br>
-           $.proxy<br>
-           ES6 Proxy</td>
-  <td></td>
+  <td> 使用者无权访问目标对象，中间加代理，通过代理做授权和控制 </td>
+  <td> 网页事件代理<br>
+                 $.proxy<br>
+                 ES6 Proxy</td>
 </tr>
 <tr>
   <td>外观模式</td>
-  <td></td>
+  <td>为子系统中的一组接口提供一个高层接口，使用者使用这个高层接口</td>
   <td></td>
 </tr>
 <tr>
   <td>观察者模式</td>
-  <td>   发布 & 订阅
-          一对 N</td>
+  <td>   发布 & 订阅， 一对多</td>
   <td>  网页事件绑定<br>
                Promise<br>
                jQuery Callbacks<br>
@@ -85,16 +84,16 @@
 </tr>
 <tr>
   <td>迭代器</td>
-  <td>  顺序访问一个有序集合</td>
+  <td>  顺序访问一个集合，使用者无须知道集合内部构造</td>
   <td> jQuery each<br>
               ES6 Iterator [Symbol.iterator]属性（函数，执行返回迭代器）</td>
 </tr>
 <tr>
   <td>状态模式</td>
-  <td> 有限状态机 收藏、取消（javascript-state-machine）<br>
-  promise实现
+  <td> 个对象有状态变化，每次变化会触发一个逻辑
   </td>
-  <td> </td>
+  <td>  有限状态机 收藏、取消（javascript-state-machine）<br>
+         promise实现</td>
 </tr>
 </table>
 
