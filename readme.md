@@ -29,9 +29,9 @@
 
 
 #### 常用设计模式对比
-<table border="1">
+<table>
 <tr>
- <th>模式类型</th>
+ <th width="120">模式类型</th>
  <th>特点</th>
   <th>应用场景</th>
 </tr>
