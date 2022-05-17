@@ -87,7 +87,7 @@
 </tr>
 <tr>
   <td>状态模式</td>
-  <td> 个对象有状态变化，每次变化会触发一个逻辑
+  <td> 一个对象有状态变化，每次变化会触发一个逻辑
   </td>
   <td>  有限状态机 收藏、取消（javascript-state-machine）<br>
          promise实现</td>
